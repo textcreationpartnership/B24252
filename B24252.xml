@@ -1,0 +1,359 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>An explanation of Mr. Gunter's quadrant, as it is enlarged with an analemma by Richard Holland.</title>
+            <author>Holland, R. (Richard), 1596-1677.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1676</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 16 KB of XML-encoded text transcribed from 9 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">B24252</idno>
+            <idno type="STC">Wing H2431</idno>
+            <idno type="EEBO-CITATION">31355230</idno>
+            <idno type="OCLC">ocm 31355230</idno>
+            <idno type="VID">205860</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. B24252)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 205860)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1740:10)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>An explanation of Mr. Gunter's quadrant, as it is enlarged with an analemma by Richard Holland.</title>
+                  <author>Holland, R. (Richard), 1596-1677.</author>
+                  <author>Gunter, Edmund, 1581-1626.</author>
+                  <author>Prujean, Joh. (John), mathematical instrument maker.</author>
+               </titleStmt>
+               <extent>[2], 14 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by Leonard Lichfield ...,</publisher>
+                  <pubPlace>Oxford :</pubPlace>
+                  <date>Anno Dom. 1676.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>"This book, with all mathematical instruments, are made and sold by John Prujean, mathematick-instrument-maker, near New College in Oxon."</note>
+                  <note>Reproduction of original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Quadrant.</term>
+               <term>Astronomical instruments.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-12</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2013-12</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2014-02</date>
+            <label>Anne Simpson</label>Sampled and proofread</change>
+         <change>
+            <date>2014-02</date>
+            <label>Anne Simpson</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:205860:1" rendition="simple:additions"/>
+            <pb facs="tcp:205860:1"/>
+            <p>AN EXPLANATION OF M<hi rend="sup">r</hi> 
+               <hi>G<g ref="char:V">Ʋ</g>NTER'S</hi> Quadrant, As it is enlarged with an <hi>ANALEMMA.</hi>
+            </p>
+            <p>BY <hi>RICHARD HOLLAND,</hi> Mathemat.</p>
+            <p>This Book, with all Mathematical Inſtruments, are Made and Sold by <hi>JOHN PR<g ref="char:V">Ʋ</g>JEAN.</hi> Mathematick-Inſtrument-maker, near <hi>New Colledge,</hi> in Oxon.</p>
+            <p>
+               <hi>OXFORD,</hi> Printed by <hi>LEON. LICHFIELD</hi> Printer to the Vniverſity, <hi>Anno Dom.</hi> 1676.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:205860:2"/>
+            <pb n="1" facs="tcp:205860:2" rendition="simple:additions"/>
+            <head>To Rectifie the Quadrant.</head>
+            <p n="1">1. LAy the String to the day of the month, and put the Bead to the 12 a clock line.</p>
+            <p>
+               <label>To find the Suns place in the Ecliptick.</label>
+            </p>
+            <p n="2">2. By the firſt, rectifie and move about the String till the Bead come to the Ecliptick, and there it ſheweth the Suns place, the time of the year being conſidered.</p>
+            <p>
+               <label>To find the right Aſcenſion of the Sun.</label>
+            </p>
+            <p n="3">3. By the firſt, rectifie and move the String about till the Bead fall upon the Ecliptick, and then the ſtring will ſhew the right aſcenſion in the Limb of the Quadrant, the time of the year being conſidered.</p>
+            <p>For if the Sun be in the Spring Signes, then the right aſcenſion is ſo much, as it is from the beginning of the Quadrant to the String: But if the Sun be in the Autumn Signes, then the right aſcenſion is ſo much, as it is from the begin<g ref="char:EOLhyphen"/>ing of the Quadrant, and two Quadrants more.</p>
+            <pb n="2" facs="tcp:205860:3"/>
+            <p>And if the Sun be in the Summer ſignes, then the right Aſcenſion is ſo much as from the end of the Quadrant to the String, and one Quadrant more. But if the Sun be in the Winter ſignes, then the right Aſcenſion is as much, as it is from the String to the end of the Quadrant, and three Quadrants more.</p>
+            <p>
+               <label>To find the Amplitude of the Sun.</label>
+            </p>
+            <p n="4">4. Rectifie and move the String till the Bead fall upon the Horizontal line, and there it ſhew<g ref="char:EOLhyphen"/>eth the Amplitude.</p>
+            <p>
+               <label>To find the Aſcenſional difference of the Sun.</label>
+            </p>
+            <p n="5">5. Rectifie, and move about the String till the Bead fall upon the Horizontal line, and then the diſtance from the beginning of the Quadrant accounted in the Limb to the String is the Aſcen<g ref="char:EOLhyphen"/>ſional difference.</p>
+            <p>
+               <label>Hence to get the time of Sun riſing to a minute of an hour.</label>
+            </p>
+            <p n="6">6. Turn the Aſcenſional difference into time, accounting every 15 degrees thereof for one hour, and every odd degree for 4 minuts of an hour, (that is multiply the odd degrees by 4, to make them minuts) and if the Sun be in the ſpring, or ſummer ſignes, account the time found, before 6 in the morning; but in autumn or winter ac<g ref="char:EOLhyphen"/>count it after 6 in the morning.</p>
+            <pb n="3" facs="tcp:205860:3"/>
+            <p>
+               <label>To get the time of Sun riſing <gap reason="illegible" resp="#MURP" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>, yet more groſlly.</label>
+            </p>
+            <p n="7">7. Rectifie, and move the ſtring to that ſide of the Quadrant next the line of Declination, and there the Bead falleth on the hour.</p>
+            <p>
+               <label>To find the Declination of the Sun.</label>
+            </p>
+            <p n="8">8. Rectifie, and move about the String to the line of Declination, and there the Bead fall<g ref="char:EOLhyphen"/>eth on the degree of Declination, and if the Sun be in the ſpring or ſummer ſignes, the Declina<g ref="char:EOLhyphen"/>tion is North, but if the Sun be in the autumn or winter ſignes, the Declination is South.</p>
+            <p>
+               <label>To get the Latitude of the place where you are.</label>
+            </p>
+            <p n="9">9. Firſt, get the Declination of the Sun by the 8. Propoſition, and conſider whether it be North or South, upon the day you will make ob<g ref="char:EOLhyphen"/>ſervation, and then take the Meridian Altitude of the Sun, and if the Declination thereof be North, take it from the Meridian Altitude to leave the Complement of Latitude; but if the Declination be South, then add it to the Meridi<g ref="char:EOLhyphen"/>an Altitude, to make up the Complement of Latitude, which Complement being had, take it from 90 degrees, the remain is the Latitude deſired.</p>
+            <pb n="4" facs="tcp:205860:4"/>
+            <p>
+               <label>To <gap reason="illegible" resp="#MURP" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> the hour of the day.</label>
+            </p>
+            <p n="10">10. Rectifie, and hold the Quadrant ſo, that the Sun beams may paſs through the Sight-holes of the Quadrant, and then the Bead falleth on the hour.</p>
+            <p>
+               <label>To get the Azimuth of the Sun.</label>
+            </p>
+            <p n="11">11. Rectifie, and take the preſent Altitude of the Sun, then account the ſame Altitude from the end of the Quadrant, and there lay the String, ſo ſhall the Bead ſhew the Azimuth among the Azimuth lines.</p>
+            <p>
+               <label>To get the Suns Altitude at any hour of the day.</label>
+            </p>
+            <p n="12">12. Rectifie, and carry the String about till the Bead fall upon the hour given, and the String ſheweth the Altitude in the Limb, being reckoned from the beginning of the Quadrant.</p>
+            <p>
+               <label>To find the Altitude of the Sun when he commeth to the true Eaſt or Weſt.</label>
+            </p>
+            <p n="13">13. Rectifie, and lay the Bead on the Eaſt and Weſt line, and ſo the String ſheweth the Altitude in the Limb, being reckoned from the end of the Quadrant.</p>
+            <pb n="5" facs="tcp:205860:4"/>
+            <p>
+               <label>To find the time when the Sun cometh to true Eaſt or Weſt.</label>
+            </p>
+            <p n="14">14. Rectifie, and carry about the String till the Bead fall unpon the Eaſt and Weſt Line, then ſo many degrees of the Limb as the String want<g ref="char:EOLhyphen"/>eth from the end of the Quadrant, let be ac<g ref="char:EOLhyphen"/>counted from the beginning of the Quadrant, and lay the String there, ſo the Bead falleth upon the hour.</p>
+            <p>
+               <label>To get the time of Day-break, (if any be.)</label>
+            </p>
+            <p n="15">15. Rectifie, and lay the String to 18 De<g ref="char:EOLhyphen"/>grees from the beginning of the Limb, and ſo the Bead ſhall fall upon the hour of Day-break, in the hour lines of the contrary time of the year, and contrary time of the day.</p>
+            <p>
+               <label>The uſe of the Stars ſcattered in the Quadrant.</label>
+            </p>
+            <p>They are to find the hour of the Night, if any of them appear, when the Northern Stars of the Nocturnal happen to be obſcured.</p>
+            <p>☞ Where Note, that each of theſe Stars have a Figure before it, which referreth to one of the Denticles on the edge of the Nocturnal, where thoſe Stars are to be uſed, and thoſe Den<g ref="char:EOLhyphen"/>ticles are put on according to the right aſcenſion of thoſe Stars.</p>
+            <pb n="6" facs="tcp:205860:5"/>
+            <p>
+               <label>The Uſe of the Scattered Starrs followeth.</label>
+            </p>
+            <p n="16">16. Rectifie the Bead to the Star, that is, lay the String to the Star, and put the Bead to the Center of the Star, and then ſee the Star through the Sights, and obſerve where the Bead falleth among the ſummer hour lines, and if the Star which you obſerve be towards the Eaſt, then you muſt reckon by the Morning hour, but if it be in the Weſt, then take the hour of the After<g ref="char:EOLhyphen"/>noon; now turn over the Quadrant, and turn a<g ref="char:EOLhyphen"/>bout the Nocturnal till the Denticle of the ſame Star obſerved doth ly upon the hour which you found on the Quadrant ſide, and then look for the day of the Month on the edge of the Nocturnal, and it ſtandeth at the hour of the night.</p>
+            <p n="17">17. Hereby alſo the hour of the Night may be found; for if any of the ſame Stars be at the Meridian, and turning the proper Denticle to 12. at Night, then the day of the month will ſtand at the hour of the night.</p>
+         </div>
+         <div type="text">
+            <pb n="7" facs="tcp:205860:5"/>
+            <head>Concerning the Rundle on the back-ſide of the Quadrant.</head>
+            <p>THis containeth two things, <hi>viz.</hi> The <hi>No<g ref="char:EOLhyphen"/>cturnal,</hi> and the <hi>Analemma.</hi>
+            </p>
+            <p>To the Nocturnal pertaineth the Hour Circle on the back-ſide of the Quadrant, and the Circle of Months on the Limb of the Rundle, and all the Conſtellations graven within the ſame; the Pin on which it turneth about repreſenteth the Pole of the world.</p>
+            <p>
+               <label>The uſe of it is to find the hour of the night in any place of the North-latitude, thus.</label>
+            </p>
+            <p n="18">18. Obſerve ſome Star of the Nocturnal at the Meridian in the Heavens, and turn the ſame of the Nocturnal to the line of 12. ſo ſhall the the day of the month of the Nocturnal ſtand at the Hour of Night.</p>
+            <div type="part">
+               <head>Of the Quadrat.</head>
+               <p n="19">19. TO get an Acceſſible Altitude, Firſt meaſure a diſtance from the Baſe, and obſerve the Summitie through the Sights, and
+<pb n="8" facs="tcp:205860:6"/>ſee on what part or diviſion of the Quadrat the String falleth; If on 100, then is the meaſured diſtance and Altitude of the thing above your eye, equal: If on 50, on the farther ſide of the Quadrat, or <hi>
+                     <g ref="char:V">Ʋ</g>mbra recta;</hi> then is your di<g ref="char:EOLhyphen"/>ſtance double to the height; If on 25, on the ſame ſide, then is your diſtance quadruple to the height; For the proportion is,</p>
+               <l>
+                  <hi>As</hi> 100,</l>
+               <l>
+                  <hi>To the parts cut by the String;</hi>
+               </l>
+               <l>
+                  <hi>So is the meaſured diſtance,</hi>
+               </l>
+               <l>
+                  <hi>To the height.</hi>
+               </l>
+               <p>But if the String fall on 50, on the nearer ſide of the Quadrat, or <hi>
+                     <g ref="char:V">Ʋ</g>mbra verſa,</hi> then is your diſtance but half the height: If on 25, on the ſame ſide, then is your diſtance but one quarter of the height above your eye; For the proportion is,</p>
+               <l>
+                  <hi>As the parts cut by the String,</hi>
+               </l>
+               <l>
+                  <hi>To</hi> 100.</l>
+               <l>
+                  <hi>So is the diſtance meaſured,</hi>
+               </l>
+               <l>
+                  <hi>To the height.</hi>
+               </l>
+               <p n="20">20. Hence it followeth, That if the ground will permit to take a ſtation at will, then let 50 Foot, Yards, <hi>&amp;c.</hi> be meaſured, and after ob<g ref="char:EOLhyphen"/>ſervation of the Summitie, take half the number
+<pb n="9" facs="tcp:205860:6"/>of the parts cut by the String on the farther ſide for the height deſired. If 25 be meaſured then take one quarter of the parts cut, for the Alti<g ref="char:EOLhyphen"/>tude required. This is without any Arithme<g ref="char:EOLhyphen"/>tical operation: The reaſon thereof is; ſeeing that it is as in the firſt.</p>
+               <l>
+                  <hi>As</hi> 100,</l>
+               <l>
+                  <hi>To the parts cut;</hi>
+               </l>
+               <l>
+                  <hi>So the diſtance,</hi>
+               </l>
+               <l>
+                  <hi>To the height.</hi>
+               </l>
+               <p>Therefore by Alternation of proportion</p>
+               <l>
+                  <hi>As</hi> 100,</l>
+               <l>
+                  <hi>To the diſtance;</hi>
+               </l>
+               <l>
+                  <hi>So the parts cut,</hi>
+               </l>
+               <l>
+                  <hi>To the height.</hi>
+               </l>
+               <p>But ſeeing that the diſtance is ½, or ¼ of 100, therefore alſo the height is ½, or ¼ of the parts cut.</p>
+               <p>
+                  <label>To get an Inacceſſible Altitude.</label>
+               </p>
+               <p n="21">21. If the height be inacceſſible (that is where you cannot meaſure to the Baſe) then muſt you take two Stations both in a right line, with the Baſe of the thing, and at each Station obſerve the Summitie, noting the parts cut both on the
+<pb n="10" facs="tcp:205860:7"/>farther ſide of the Quadrat, and alſo meaſure the diſtance between the two Stations: Then muſt you divide 10000 by each number of parts cut at each Station.</p>
+               <p>For the proportion is</p>
+               <l>
+                  <hi>As the difference of the two Quotients,</hi>
+               </l>
+               <l>
+                  <hi>Is to the diſtance between the Stations:</hi>
+               </l>
+               <l>
+                  <hi>So is</hi> 100,</l>
+               <l>
+                  <hi>To the Altitude required.</hi>
+               </l>
+               <p>And to get the diſtance, from the nearer Stati<g ref="char:EOLhyphen"/>on to the Baſe of the thing, the proportion is</p>
+               <l>
+                  <hi>As the difference between the Quotients,</hi>
+               </l>
+               <l>
+                  <hi>To the diſtance between the Stations;</hi>
+               </l>
+               <l>
+                  <hi>So the leſſer Quotient,</hi>
+               </l>
+               <l>
+                  <hi>To the diſtance deſired.</hi>
+               </l>
+            </div>
+            <div type="part">
+               <head>Of the Analemma.</head>
+               <p>THis containeth all the lines in the Rundle, not before mentioned in the Nocturnal, <hi>viz.</hi> The Inner Circle being the Meridian of the A<g ref="char:EOLhyphen"/>nalemma, and it is divided into 360 degrees: And all the ſtreight lines drawn therein: The Equinoctial is the middle of the Parallel lines,
+<pb n="11" facs="tcp:205860:7"/>and paſſeth through the Center of the Rundle, and the two outer lines of the Parallels, are the two Tropicks, the reſt of the Parallels, are the in<g ref="char:EOLhyphen"/>termediate lines of the Suns declination: The Crooked lines which are drawn over the lines of Declination, are the Hour lines, and at each end are figured with their proper figures: The Line which cutteth the lines of Declination at right Angles, is the Axis, and the ends thereof are the Poles of the Analemma: The moveable In<g ref="char:EOLhyphen"/>dex faſtened upon the Pin in the Center, repre<g ref="char:EOLhyphen"/>ſenteth theſe Five Points, <hi>viz.</hi> The Center of the World: The points of Eaſt, and Weſt, and of ♈ and ♎.</p>
+               <p>
+                  <label>To Rectifie the Analemma.</label>
+               </p>
+               <p>Put the Horizon ſo far under the Pole thereof, as the Pole of the World is elevated in the place where you are.</p>
+               <p>
+                  <label>To find the Amplitude of the Sun.</label>
+               </p>
+               <p>Rectifie, and obſerve where the Parallel of the Suns Declination, meeteth with the Horizon, for there it ſheweth the Amplitude.</p>
+               <p>
+                  <label>To find the time of Sun Riſeing.</label>
+               </p>
+               <p>Rectifie and obſerve what Hour line meeteth
+<pb n="12" facs="tcp:205860:8"/>with the Section of the Horizon, and the Parallel of the Suns Declination, and that is the hour.</p>
+               <p>
+                  <label>To find the Hour of the day.</label>
+               </p>
+               <p>Firſt obſerve the Altitude of the Sun with the Quadrant, then Rectifie the Analemma, and with your Compaſſes take the Altitude, from the Center along in the Horizon, and run the Com<g ref="char:EOLhyphen"/>paſſes ſo opened perpendicular on the Horizon, till the higher foot touch the Parallel of the Suns Declination, and there it meeteth with the hour.</p>
+               <p>
+                  <label>To get the time of Day break, if any be.</label>
+               </p>
+               <p>Rectifie, and take 18 degrees along in the Ho<g ref="char:EOLhyphen"/>rizon, and put one foot of the Compaſſes to the upper edg of the Horizon, and turn the other downwards and ſo run them parallel till the low<g ref="char:EOLhyphen"/>er foot touch the Parallel of the Suns Declinati<g ref="char:EOLhyphen"/>on, and there it meeteth with the hour.</p>
+               <p>
+                  <label>To find the continuance of Twilight, or <hi>Crepuſculum.</hi>
+                  </label>
+               </p>
+               <p>Take the hour of Day-break from the hour of Suns riſing, and the difference is the time deſired.</p>
+               <pb n="13" facs="tcp:205860:8"/>
+               <p>
+                  <label>To find the Aſcenſional difference in Time.</label>
+               </p>
+               <p>Take the time of Sun riſing from 6, if the Sun be in the North Declination, but if the Sun have South Declination, then take 6, from the time of the Suns riſing; and in either caſe you have the aſcenſional difference remaining.</p>
+               <p>
+                  <label>Hence the length of the day and night may be found in any Latitude.</label>
+               </p>
+               <p>Which may be thus done: If the Latitude &amp; Suns Declination be North, then add the aſcen<g ref="char:EOLhyphen"/>ſional difference to 6, and the total is the Semi<g ref="char:EOLhyphen"/>diurnal Arch, and taken from 6, leaveth the Seminocturnal Arch. But if the Latitude be North, and the Suns Declinaſion be South, then take the aſcentional difference from 6, to leave the Semidiurnal Arch, but add it to 6, to make the Seminocturnal Arch.</p>
+               <p>
+                  <label>To get the Declination of the Sun.</label>
+               </p>
+               <p>Rectifie the Analemma, and find the Meridi<g ref="char:EOLhyphen"/>an Altitude of the Sun by your Quadrant, and take the ſame Altitude from the Horizon with the Compaſſes, and being ſo opened, carry them parallel on the Horizon to the Meridian Circle, and there the higher point meeteth with the pa<g ref="char:EOLhyphen"/>rallel of the Suns Declination.</p>
+               <pb n="14" facs="tcp:205860:9"/>
+               <p>
+                  <label>To find the Latitude of the place where you are.</label>
+               </p>
+               <p>Firſt get the Suns Meridian Altitude and De<g ref="char:EOLhyphen"/>clination, as in the laſt above, and with your Compaſſes take the ſame Altitude from the Cen<g ref="char:EOLhyphen"/>ter along the Horizon, and ſet one foot of the Compaſſes being ſo opened in that point of the Meridian, where the parallel of the Sun toucheth it on the South part, and bring the Horizon to touch the other foot of the Compaſſes (the Com<g ref="char:EOLhyphen"/>paſſes being kept perpendicular to the Horizon) &amp; then the North end of the Horizon ſhall ſhew the Poles Altitude.</p>
+               <pb facs="tcp:205860:9"/>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
